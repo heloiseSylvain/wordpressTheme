@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://example.com/twenty-nineteen-child/
+ Description:  Twenty Nineteen Enfant
+ Author:       Héloïse Sylvain
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+.site-branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-branding > .site-title > a {
+    color: pink;
+}
+
+.etiquette-image{
+    background-color: beige;
+    border: 1px blue solid;
+}
+
+.etiquette-image p{
+    background-color: mediumslateblue;
+    color: blue !important;
+}

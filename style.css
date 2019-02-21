@@ -53,7 +53,11 @@
     background: none;
 }
 
-.conteneur-images{
+.conteneur-images img{
+    -webkit-box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
+    -moz-box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
+    box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
     
 }
+
 

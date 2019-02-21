@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  Theme Name:   Twenty Nineteen Enfant
  Theme URI:    http://example.com/twenty-nineteen-child/
@@ -10,55 +11,66 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-enfant
 */
-
-.site-branding{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-.site-branding > .site-title > a,p {
-    color: pink;
-    text-transform: uppercase;
-}
-
-.site-title{
-    font-size: 8vw;
-    letter-spacing: 0.5vw;
-    font-weight: 100;
+.site-branding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.site-description{
-    font-size: 1.5vw;
-    letter-spacing: 0.5vw;
-    font-weight: 100;
+.site-branding > .site-title > a, p {
+  color: pink;
+  text-transform: uppercase;
 }
 
-.site-title:not(:empty) + .site-description:not(:empty):before{
-    content: none;
+.site-title {
+  font-size: 8vw;
+  letter-spacing: 0.5vw;
+  font-weight: 100;
 }
 
-.entry-title{
-    font-weight: 100;
-    letter-spacing: 0.5vw;
-    font-size: 1.5vw
+.site-description {
+  font-size: 1.5vw;
+  letter-spacing: 0.5vw;
+  font-weight: 100;
 }
 
-.etiquette-image{
-   height: 100vh;
+.site-title:not(:empty) + .site-description:not(:empty):before {
+  content: none;
 }
 
-.site-header.featured-image:after{
-    background: none;
+.entry-title {
+  font-weight: 100;
+  letter-spacing: 0.5vw;
+  font-size: 1.5vw;
 }
 
-.conteneur-images img{
-    transition: transform 0.5s linear;
+.etiquette-image {
+  height: 100vh;
 }
 
-.conteneur-images img:hover{
-    transform: scale(0.95);
+.site-header.featured-image:after {
+  background: none;
 }
 
+.conteneur-images img {
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+}
 
+.conteneur-images img:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=style.css.map */

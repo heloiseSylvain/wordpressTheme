@@ -54,10 +54,11 @@
 }
 
 .conteneur-images img{
-    -webkit-box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
-    -moz-box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
-    box-shadow: 10px 12px 41px -11px rgba(0,0,0,0.26);
-    
+    transition: transform 0.5s linear;
+}
+
+.conteneur-images img:hover{
+    transform: scale(0.95);
 }
 
 

@@ -49,10 +49,11 @@
    height: 100vh;
 }
 
-.etiquette-image p{
-    letter-spacing: 1vw;
-}
-
 .site-header.featured-image:after{
     background: none;
 }
+
+.conteneur-images{
+    
+}
+

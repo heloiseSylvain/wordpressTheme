@@ -24,7 +24,8 @@
 }
 
 p.site-description{
-    animation: animationDescription 5s both;
+    animation: animationDescription 1.5s both;
+    animation-delay: 1s;
 }
 
 @keyframes animationDescription {
@@ -34,7 +35,7 @@ p.site-description{
     }
 
     50% {
-        transform: translateX(30vw);
+        transform: translateX(5vw);
         animation-timing-function: cubic-bezier(.09, .25, .19, 1.01);
     }
 

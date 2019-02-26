@@ -42,8 +42,10 @@
 }
 
 p.site-description {
-  -webkit-animation: animationDescription 5s both;
-          animation: animationDescription 5s both;
+  -webkit-animation: animationDescription 1.5s both;
+          animation: animationDescription 1.5s both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes animationDescription {
@@ -54,8 +56,8 @@ p.site-description {
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
   }
   50% {
-    -webkit-transform: translateX(30vw);
-            transform: translateX(30vw);
+    -webkit-transform: translateX(5vw);
+            transform: translateX(5vw);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
@@ -73,8 +75,8 @@ p.site-description {
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
   }
   50% {
-    -webkit-transform: translateX(30vw);
-            transform: translateX(30vw);
+    -webkit-transform: translateX(5vw);
+            transform: translateX(5vw);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }

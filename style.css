@@ -27,19 +27,18 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.site-branding > .site-title > a, p {
+.site-branding > .site-title > a {
   color: pink;
   text-transform: uppercase;
 }
 
 .site-title {
-  font-size: 8vw;
   letter-spacing: 0.5vw;
   font-weight: 100;
+    font-size: 4em;
 }
 
 .site-description {
-  font-size: 1.5vw;
   letter-spacing: 0.5vw;
   font-weight: 100;
 }
@@ -51,7 +50,7 @@
 .entry-title {
   font-weight: 100;
   letter-spacing: 0.5vw;
-  font-size: 1.5vw;
+    font-size: 1em;
 }
 
 .etiquette-image {
@@ -72,5 +71,33 @@
 .conteneur-images img:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+.entry .entry-title:before{
+    content: none;
+}
+
+.entry .entry-title a:hover {
+  color: pink;
+}
+
+.entry-header-cours{
+    margin: 0 10vw;
+}
+
+#post-196, #post-198, #post-200{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: pink solid 1px;
+}
+
+#post-200{;
+    border-top: pink solid 1px;
+}
+
+.site-info{
+    display: none;
 }
 /*# sourceMappingURL=style.css.map */

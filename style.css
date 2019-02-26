@@ -199,8 +199,12 @@ p.site-description {
   border-bottom: pink solid 1px;
 }
 
-#post-200 {
+#post-200:hover {
   border-top: pink solid 1px;
+}
+
+#post-200:hover {
+  background: black;
 }
 
 .site-info {

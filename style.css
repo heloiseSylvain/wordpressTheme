@@ -191,7 +191,7 @@ p.site-description {
   margin: 0 10vw;
 }
 
-#post-196, #post-198, #post-200 {
+.site-main article {
   padding-top: 2vh;
   padding-bottom: 2vh;
   margin-top: 0;
@@ -199,12 +199,8 @@ p.site-description {
   border-bottom: pink solid 1px;
 }
 
-#post-200:hover {
+.site-main article:first-child {
   border-top: pink solid 1px;
-}
-
-#post-200:hover {
-  background: black;
 }
 
 .site-info {
